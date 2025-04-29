@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  color: #2d3748;
+}
+
+header p {
+  color: #4a5568;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
